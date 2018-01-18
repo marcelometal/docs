@@ -207,7 +207,8 @@ The main contract handles most of the interactions with the users, dispatching c
 A separate, possibly self-replicating contract will store those price indexes, which themselves include different metrics and pointers to optimize contract execution. Another contract will handle a subcurrency as the base asset of the exchange. Its actual use is still being discussed since there is still a preference towards simply using Ether for all transactions if possible. However, a balance within the exchange still needs to be recorded, and such a subcurrency currently serves that purpose with that contract. A fourth contract, also self-replicating, will hold the actual trades and data. And, at the very least, a fifth contract is needed to hold the different markets being added.
 
 <p>&nbsp;</p>
-![contracts diagram](./contracts-diagram.png "Contracts overview")
+
+![Contracts overview](./contracts-diagram.png)
 
 <div align="center">Contracts overview</div>
 
