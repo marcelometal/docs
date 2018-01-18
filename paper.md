@@ -367,7 +367,7 @@ Interface
 EtherEx will provide an open-source interface on the Ethereum platform - both as a standalone client that connects to a node, and as a Đapp interface for the EtherBrowser. Despite its decentralized nature, its user interface can be constructed to appear and behave very similar to what traders are used to with current centralized exchanges.
 
 
-###JSON API
+### JSON API
 
 While a complete JSON-RPC API will be provided to retrieve information about the exchange, users will be highly encouraged to provide their own nodes. All of the exchange's data will be available to users from the interface within the Ethereum client.
 
